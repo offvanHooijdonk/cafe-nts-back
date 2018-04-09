@@ -44,9 +44,14 @@
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-client</artifactId>
-			<version>1.18</version>
+			<version>1.8</version>
 		</dependency>
 
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-json</artifactId>
+            <version>1.8</version>
+        </dependency>
 
 		<!-- Spring 3 dependencies -->
 		<dependency>
@@ -108,14 +113,8 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-core</artifactId>
-			<version>2.3.2</version>
-		</dependency>
-
 	</dependencies>
 	<build>
-		<finalName>cafe-nts-back</finalName>
+		<finalName>cafe-nts-rest</finalName>
 	</build>
 </project>
